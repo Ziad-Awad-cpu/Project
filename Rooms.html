@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<title>Rooms</title>
+<style>
+
+.column {
+  float: left;
+  width: 30.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(25, 51, 22, 0.596);
+ 
+  
+}
+.box{
+    position: absolute;
+    right:150px;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+  
+
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: orange;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: rgb(128, 128, 128);
+}
+
+
+
+
+</style>
+
+
+
+
+<html>
+    <body style="background-color: whitesmoke;" >
+      <H1 style="text-align: center; font-size: 50px;">Rooms</H1>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="https://www.pavillon-monceau.com/files/hotel/pavillon-monceau/chambres/chambre_standard_.jpg" style="width:100%">
+            <div class="container">
+              <h2>Single Room
+              </h2>
+              <p class="title">1 Guest</p>
+              <p>Mini Fridge (mini bar at extra charge)</p>
+              <p>Coffee/Tea-making Facilities</p>
+              <p>Flat Screen TV</p>
+              <p>
+                <input type="checkbox">full-board</input>
+                <br><input type="checkbox">half-board</input></br>
+            
+                <form action="file:///C:/Users/Ziad%20Awad/Desktop/Project/page3.html" target="_blank"> 
+            <button class="button"  >Book Now! </button>
+        </form> 
+            </p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/ba/31/e0/standard-triple-room.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Triple Room</h2>
+
+              <p class="title">3 Guests</p>
+              <p>Mini Fridge (mini bar at extra charge)</p>
+              <p>Coffee/Tea-making Facilities</p>
+              <p>Flat Screen TV</p>
+              <p>
+                <input type="checkbox">full-board</input>
+                <br><input type="checkbox">half-board</input></br>
+                <form action="file:///C:/Users/Ziad%20Awad/Desktop/Project/page3.html" target="_blank"> 
+                    <button class="button" >Book Now! </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="box"></div>
+        <div class="column">
+          <div class="card">
+            <img src="https://cdn.traveltripper.io/site-assets/512_863_12597/media/2018-02-22-041437/large_DDBDB.jpg" alt="John" style="width:100%">
+            <div class="container">
+            
+              <h2>Double Room</h2>
+              <p class="title">2 Guests</p>
+              <p>Mini Fridge (mini bar at extra charge)</p>
+              <p>Coffee/Tea-making Facilities</p>
+              <p>Flat Screen TV</p>
+              <input type="checkbox">full-board</input>
+                <br><input type="checkbox">half-board</input></br>
+              <p>
+
+                <form action="file:///C:/Users/Ziad%20Awad/Desktop/Project/page3.html" target="_blank"> 
+                    <button class="button"  >Book Now! </button>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 style="text-align: center; font-size: 50px;"> Suites</h1>
+     
+      <div class="column">
+        <div class="card">
+          <img src="https://www.survivaltechshop.com/wp-content/uploads/2019/11/oprea-marius-pfN4_bNnrU4-unsplash-1024x540.jpg" alt="Mike" style="width:100%">
+          <div class="container">
+            <h2>Presidential Suite</h2>
+            <p class="title">With a meeting room </p>
+            <p>Praivate WiFi</p>
+            <p>International landline</p>
+            <p>Mini Fridge (mini bar at extra charge)</p>
+              <p>Coffee/Tea-making Facilities</p>
+              <p>Flat Screen TV</p>
+            <h1>15000$/per night</h1>
+            <p>
+                <form action="file:///C:/Users/Ziad%20Awad/Desktop/Project/page3.html" target="_blank"> 
+                    <button class="button"  >Book Now! </button>
+                </p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="https://www.survivaltechshop.com/wp-content/uploads/2019/11/andrea-davis-FKDqn6j19vs-unsplash-1024x681.jpg" alt="Mike" style="width:100%">
+          <div class="container">
+            <h2>Apartments</h2>
+            <p class="title">Private WiFi</p>
+            <p>American Kitchen</p>
+            <p>3 Rooms</p>
+            <p>2 Bathrooms</p>
+            <p>
+              <input type="checkbox">full-board</input>
+                <br><input type="checkbox">half-board</input></br>
+            </p>
+            <h1>5000$/per night</h1>
+            <p>
+                <form action="file:///C:/Users/Ziad%20Awad/Desktop/Project/page3.html" target="_blank"> 
+                    <button class="button"  >Book Now! </button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column">
+        <div class="card">
+          <img src="https://www.survivaltechshop.com/wp-content/uploads/2019/11/chandra-daru-nusastiawan-iKYMiczb5uk-unsplash-1024x683.jpg" alt="Mike" style="width:100%">
+          <div class="container">
+            <h2>Villas</h2>
+            <p class="title">Overlooking on the see</p>
+            <p>5 Rooms</p>
+            <p>4 Bathrooms</p>
+            <p>Private WiFi</p>
+            <input type="checkbox">full-board</input>
+                <br><input type="checkbox">half-board</input></br>
+            <h1>7500$/per night</h1>
+            <p>
+                <form  action="file:///C:/Users/Ziad%20Awad/Desktop/Project/page3.html" target="_blank"> 
+                    <button class="button"  >Book Now! </button>
+            </p>
+          </div>
+        </div>
+      </div>
+  
+
+
+
+</body>
+</html>
